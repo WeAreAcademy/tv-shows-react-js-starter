@@ -29,7 +29,7 @@ yarn test
 or, to have tests re-run on each file save:
 
 ```bash
-yarn test:watch`
+yarn test:watch
 ```
 
 If you are getting errors from ts (typescript) that you want to turn off, you can edit `jsconfig.json` and set`"checkJs": false`
