@@ -1,11 +1,12 @@
 import { DemonstratingProps } from "./components/demo/DemonstratingProps";
+import { TVShowsApp } from "./components/TvShowsApp.jsx";
 
 function App() {
     return (
-        <div>
-            <h1>App component</h1>
+        <>
+            <TVShowsApp />
             <DemonstratingProps />
-        </div>
+        </>
     );
 }
 
