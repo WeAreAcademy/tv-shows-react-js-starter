@@ -1,5 +1,39 @@
 # React + Vite
 
+### installing dependencies
+
+```bash
+yarn
+```
+
+### Running dev server:
+
+```bash
+yarn dev
+```
+
+### Running lint:
+
+```bash
+yarn lint
+```
+
+(however, if you install the vscode eslint extension as recommended, eslint will read the eslint config file in this project and give you feedback within vscode).
+
+### Running unit tests:
+
+```bash
+yarn test
+```
+
+or, to have tests re-run on each file save:
+
+```bash
+yarn test:watch`
+```
+
+If you are getting errors from ts (typescript) that you want to turn off, you can edit `jsconfig.json` and set`"checkJs": false`
+
 ## Based on Academy lightweight template for React
 
 -   vite,
