@@ -16,3 +16,12 @@ textarea,
 select {
     font: inherit;
 }
+
+.tvShowsApp {
+    padding: 1rem;
+}
+
+.demonstratingProps {
+    background: gainsboro;
+    padding: 1rem;
+}
